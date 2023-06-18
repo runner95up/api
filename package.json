@@ -2,7 +2,7 @@
   "name": "@nokiamon/api",
   "version": "0.0.1",
   "description": "NokiaMon API",
-  "scripts": {
+  "scripts": { 
     "npm": "npm run build && npm run start",
     "dev": "concurrently -k -p \"[{name}]\" -n \"TS,NODE\" -c \"yello.bold, cyan.bold\" \"yarn run tsc:watch\" \"yarn run start:hot\"",
     "build": "npm tsc",
