@@ -9,7 +9,7 @@
     "tsc:watch": "tsc -w --preserveWatchOutput",
     "start": "node dist/index.js",
     "start:hot": "nodemon -e js,d.ts,js.map --watch dist/ \"dist/index.js\""
-  },
+  }, 
   "dependencies": {
     "@types/bcrypt": "^5.0.0",
     "@types/cors": "^2.8.13",
